@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizcaína | Equipamiento de Alta Gama</title>
+    <style>
+        :root {
+            --bg-color: #0d0d0d;
+            --card-bg: #1a1a1a;
+            --accent-gold: #c5a059;
+            --accent-gold-hover: #b08d46;
+            --text-light: #f5f5f5;
+            --text-muted: #a0a0a0;
+            --border-color: #333333;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 28px 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .logo {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 16px;
+        }
+
+        .title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--text-light);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(197, 160, 89, 0.15);
+            color: var(--accent-gold);
+            border: 1px solid var(--accent-gold);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 14px 16px;
+            background-color: #121212;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-light);
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus {
+            border-color: var(--accent-gold);
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 16px;
+            background-color: var(--accent-gold);
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 8px;
+            transition: background-color 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-submit:hover {
+            background-color: var(--accent-gold-hover);
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 20px;
+            line-height: 1.3;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 12px 0;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        .feature-item {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .feature-item strong {
+            display: block;
+            color: var(--accent-gold);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="img/logo-vizcaina.png" alt="Vizcaína Logo" class="logo">
+        <br>
+        <span class="badge">Patrocinador Oficial</span>
+        <h1 class="title">Tu próximo negocio comienza aquí</h1>
+        <p class="subtitle">Equipamiento mayorista de alta gama para proyectos exclusivos.</p>
+    </div>
+
+    <div class="features">
+        <div class="feature-item">
+            <strong>Mayoreo</strong>
+            Precio Directo
+        </div>
+        <div class="feature-item">
+            <strong>Calidad VIP</strong>
+            Alta Durabilidad
+        </div>
+        <div class="feature-item">
+            <strong>Stock Integral</strong>
+            Mobiliario y Cristal
+        </div>
+    </div>
+
+    <!-- Formulario actualizado con el campo de correo -->
+    <form id="leadForm">
+        <div class="form-group">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" placeholder="Ej. Carlos Mendoza" required>
+        </div>
+
+        <div class="form-group">
+            <label for="empresa">Empresa / Proyecto</label>
+            <input type="text" id="empresa" placeholder="Ej. Hotel / Restaurante / Constructora" required>
+        </div>
+
+        <div class="form-group">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" placeholder="contacto@tuempresa.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="whatsapp">Teléfono de Contacto</label>
+            <input type="tel" id="whatsapp" placeholder="33 0000 0000" required>
+        </div>
+
+        <button type="submit" class="btn-submit">Descargar Catálogo Privado</button>
+    </form>
+
+    <div class="footer-note">
+        🔒 Tus datos son confidenciales. Te redirigiremos automáticamente para enviarte la información.
+    </div>
+</div>
+
+<script>
+    document.getElementById('leadForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        // Obtener valores de los insumos
+        const nombre = document.getElementById('nombre').value;
+        const empresa = document.getElementById('empresa').value;
+        const correo = document.getElementById('correo').value; // Nuevo campo capturado
+        const telefonoCliente = document.getElementById('whatsapp').value;
+
+        // Número de destino con clave de país de México (+52)
+        const numeroDestino = "523319571056";
+
+        // Estructura del mensaje formal para el prospecto incluyendo el correo
+        const mensaje = `Hola Vizcaína, me interesa recibir el catálogo privado.%0A%0A` +
+                        `*Datos del Contacto:*%0A` +
+                        `• *Nombre:* ${encodeURIComponent(nombre)}%0A` +
+                        `• *Empresa / Proyecto:* ${encodeURIComponent(empresa)}%0A` +
+                        `• *Correo:* ${encodeURIComponent(correo)}%0A` +
+                        `• *Teléfono:* ${encodeURIComponent(telefonoCliente)}`;
+
+        // Enlace directo de WhatsApp
+        const urlWhatsApp = `https://wa.me/${numeroDestino}?text=${mensaje}`;
+
+        // Abrir WhatsApp en la misma pestaña o en una nueva
+        window.location.href = urlWhatsApp;
+    });
+</script>
+
+</body>
+</html>
