@@ -1,0 +1,86 @@
+<!-- ==========================================
+         HERO DE CONTACTO
+    =========================================== -->
+    <header class="contacto-hero">
+        <div class="contacto-hero-content">
+            <h1>Hablemos de tu próximo proyecto</h1>
+            <p>Nuestros especialistas están listos para brindarte atención personalizada y encontrar la curaduría exacta que tu espacio necesita.</p>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         SECCIÓN PRINCIPAL DE CONTACTO
+    =========================================== -->
+    <section class="seccion-contacto">
+        <div class="contacto-container">
+            
+            <!-- Columna Izquierda: Información Directa -->
+            <div class="contacto-info">
+                <!-- Usamos la misma clase de título con línea para mantener congruencia -->
+                <h2 class="titulo-lineas contacto-titulo">CONTACTO B2B</h2>
+                <p class="info-intro">Agenda una visita a nuestro showroom en Casa Vizcaína o solicita asesoría para tu equipamiento mayorista.</p>
+                
+                <div class="info-items">
+                    <div class="info-item">
+                        <span class="info-label">Ubicación</span>
+                        <a href="https://maps.app.goo.gl/ZhZ8XzsX3V71PzTg9" target="_blank" class="info-link">
+                            Hidalgo 20, Los Gavilanes, 45640<br>Los Gavilanes, Jal.
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Atención Directa</span>
+                        <a href="tel:+523300000000" class="info-link">+52 (33) 0000 0000</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Correo Corporativo</span>
+                        <a href="mailto:proyectos@vizcaina.com" class="info-link">proyectos@vizcaina.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Formulario Premium -->
+            <div class="contacto-formulario">
+                <form action="#" method="POST" class="form-b2b">
+                    
+                    <div class="form-group">
+                        <input type="text" id="nombre" class="form-input" placeholder=" " required>
+                        <label for="nombre" class="form-label">Nombre Completo</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="empresa" class="form-input" placeholder=" " required>
+                        <label for="empresa" class="form-label">Empresa / Restaurante</label>
+                    </div>
+                    
+                    <div class="form-group-row">
+                        <div class="form-group half">
+                            <input type="email" id="correo" class="form-input" placeholder=" " required>
+                            <label for="correo" class="form-label">Correo Electrónico</label>
+                        </div>
+                        <div class="form-group half">
+                            <input type="tel" id="telefono" class="form-input" placeholder=" " required>
+                            <label for="telefono" class="form-label">Teléfono</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="tipo-proyecto" class="form-input select-input" required>
+                            <option value="" disabled selected>Selecciona el tipo de proyecto</option>
+                            <option value="restaurante">Restaurante / Alta Gastronomía</option>
+                            <option value="hotel">Hotel / Hospitalidad</option>
+                            <option value="eventos">Productora de Eventos</option>
+                            <option value="distribuidor">Quiero ser Distribuidor</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="mensaje" class="form-input textarea-input" rows="4" placeholder=" " required></textarea>
+                        <label for="mensaje" class="form-label">Cuéntanos brevemente sobre tu proyecto...</label>
+                    </div>
+
+                    <button type="submit" class="btn-submit-contacto">Enviar Mensaje</button>
+                </form>
+            </div>
+
+        </div>
+    </section>

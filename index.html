@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizcaína Living Home | Socio Estratégico en Hospitalidad</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <a href="/" class="logo-link">
+            <img src="imgen/logo-vizcaina.svg" alt="Vizcaína Living Home" class="logo-img">
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="#Galeria">Galeria</a></li>
+            <li><a href="#Productos">Productos</a></li>
+            <li><a href="#Catalogos">Catálogos</a></li>
+            <li><a href="#Contactanos">Contáctanos</a></li>
+        </ul>
+        <div class="nav-actions">
+            <!-- Escape al B2C -->
+            <a href="https://www.mercadolibre.com.mx/tienda/vizcaina-cristaleria?item_id=MLM2753215705&category_id=MLM1574&official_store_id=180722&client=recoview-selleritems&recos_listing=true" class="link-b2c">Tienda Menudeo</a> 
+            <a href="#login" class="btn-login">Acceso Distribuidores</a>
+        </div>
+    </nav>
+
+<!-- Sección Hero (Video en bucle + Textos dinámicos) -->
+    <header class="hero-slider">
+        
+        <!-- Video Fijo de Fondo -->
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="imgen/hero-banner.mp4" type="video/mp4">
+        </video>
+
+        <!-- Capa de contraste (Degradado inferior) -->
+        <div class="slide-overlay"></div>
+
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <div class="hero-content">
+                <h1>La curaduría global detrás del éxito de tu restaurante.</h1>
+                <h2>Más que importadores, somos tus socios estratégicos. Seleccionamos cristalería, cubertería y mobiliario de clase mundial para elevar tus creaciones, blindar tu operación diaria y maximizar tu inversión.</h2>
+                <a href="#asesoria" class="btn-hero-minimal">Hablar con un especialista</a>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="hero-content">
+                <h1>El estándar de excelencia en alta gastronomía y hospitalidad.</h1>
+                <h2>Cristalería, mobiliario y accesorios globales curados para los líderes del sector. El diseño que exige el chef, la resistencia que necesita el servicio y la rentabilidad que busca tu negocio.</h2>
+                <a href="#asesoria" class="btn-hero-minimal">Hablar con un especialista</a>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+            <div class="hero-content">
+                <h1>Equipamos la visión de los proyectos más ambiciosos.</h1>
+                <h2>Colecciones exclusivas de cristalería, cubertería y mobiliario. Proveeduría consultiva diseñada para inspirar la cocina, agilizar tus compras y garantizar el prestigio de tu marca.</h2>
+                <a href="#asesoria" class="btn-hero-minimal">Hablar con un especialista</a>
+            </div>
+        </div>
+
+    </header>
+    
+<!-- Sección: El Respaldo Vizcaína -->
+    <section class="seccion-respaldo">
+        <div class="respaldo-container">
+            
+            <div class="respaldo-header">
+                <h2 class="titulo-lineas">EL RESPALDO VIZCAÍNA</h2>
+            </div>
+            
+            <p class="respaldo-intro">
+                Más que proveedores, somos consultores en equipamiento para la alta hostelería. Seleccionamos meticulosamente colecciones globales para garantizar que tu inversión se traduzca en prestigio, resistencia y rentabilidad operativa.
+            </p>
+
+            <div class="respaldo-grid">
+                
+                <!-- Ítem 1 (ESTE AHORA TIENE EL ISOTIPO) -->
+                <div class="respaldo-item">
+                    <div class="icono-contenedor">
+                        <!-- Aquí mandamos llamar tu archivo SVG externo -->
+                        <img src="imgen/isotipo.svg" alt="Isotipo Vizcaína" class="icono-img">
+                    </div>
+                    <h3>DISEÑADO PARA PROFESIONALES</h3>
+                    <p>Seleccionamos materiales de alto rendimiento diseñados para soportar el rigor del servicio constante sin perder elegancia.</p>
+                </div>
+
+                <!-- Ítem 2 -->
+                <div class="respaldo-item">
+                    <div class="icono-contenedor">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    </div>
+                    <h3>LOGÍSTICA Y ABASTECIMIENTO</h3>
+                    <p>Mantenemos un control estricto de inventarios y entregas precisas para asegurar que tu operación nunca se detenga.</p>
+                </div>
+
+                <!-- Ítem 3 -->
+                <div class="respaldo-item">
+                    <div class="icono-contenedor">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3>RENTABILIDAD COMPROBADA</h3>
+                    <p>Proveemos equipamiento duradero que reduce drásticamente la tasa de reposición, maximizando tu retorno de inversión a largo plazo.</p>
+                </div>
+
+                <!-- Ítem 4 (REGRESÓ EL ICONO DE CONSULTORÍA) -->
+                <div class="respaldo-item">
+                    <div class="icono-contenedor">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>ASESORÍA CONSULTIVA</h3>
+                    <p>Te guiamos paso a paso en la selección de tu equipo, priorizando el valor, la funcionalidad y las necesidades de tu proyecto.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Nuestros Productos (Carrusel) -->
+    <section class="seccion-productos">
+        <div class="respaldo-header" style="margin-bottom: 3rem;">
+            <h2 class="titulo-lineas">NUESTROS PRODUCTOS</h2>
+        </div>
+
+        <div class="slider-productos-container">
+            <!-- Botón Anterior -->
+            <button class="slider-btn prev-btn" id="btnPrevProd">&#10094;</button>
+
+            <!-- Contenedor de la pista del carrusel -->
+            <div class="productos-track-wrapper">
+                <div class="productos-track" id="trackProductos">
+                    
+                    <!-- Categoría 1 -->
+                    <div class="producto-card" style="background-image: url('imgen/categoria-plato.jpg');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>PLATOS DE CRISTAL Y CERÁMICA</h3>
+                            <a href="#platos" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Categoría 2 -->
+                    <div class="producto-card" style="background-image: url('imgen/categoria-cubierto.jpg');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>CUBIERTOS</h3>
+                            <a href="#cubiertos" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Categoría 3 -->
+                    <div class="producto-card" style="background-image: url('imgen/categoria-copa.jpg');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>COPAS</h3>
+                            <a href="#copas" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Categoría 4 -->
+                    <div class="producto-card" style="background-image: url('imgen/categoria-silla.jpg');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>SILLAS</h3>
+                            <a href="#sillas" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Categoría 5 -->
+                    <div class="producto-card" style="background-image: url('imgen/categoria-melamina.jpg');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>MELAMINAS</h3>
+                            <a href="#melaminas" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Categoría 6 -->
+                    <div class="producto-card" style="background-image: url('https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=600&q=80');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>CANDELABROS</h3>
+                            <a href="#candelabros" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Categoría 7 -->
+                    <div class="producto-card" style="background-image: url('https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=600&q=80');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>FLORES</h3>
+                            <a href="#flores" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Categoría 8 -->
+                    <div class="producto-card" style="background-image: url('https://images.unsplash.com/photo-1576097449798-8c17b0754228?auto=format&fit=crop&w=600&q=80');">
+                        <div class="producto-overlay"></div>
+                        <div class="producto-info">
+                            <h3>ACCESORIOS</h3>
+                            <a href="#accesorios" class="btn-explorar">EXPLORAR</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <!-- Botón Siguiente -->
+            <button class="slider-btn next-btn" id="btnNextProd">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Sección: Novedades y Colección Destacada (Estilo 3 Columnas) -->
+    <section class="seccion-novedades">
+        <div class="novedades-container">
+            
+            <div class="novedades-header">
+                <span class="novedades-kicker">Novedades en nuestra linea</span>
+                <h2 class="novedades-titulo">Equipamiento que redefine espacios</h2>
+                <p class="novedades-intro">
+                    Cada pieza ha sido cuidadosamente seleccionada para ofrecer el equilibrio perfecto entre diseño vanguardista y la resistencia que exige la alta operación comercial.
+                </p>
+            </div>
+
+            <div class="slider-novedades-wrapper">
+                <!-- Controles del Slider -->
+                <button class="slider-btn-nov prev-nov" id="btnPrevNov">&#10094;</button>
+                
+                <div class="novedades-track-container">
+                    <div class="novedades-track" id="trackNovedades">
+                        
+                        <!-- Producto 1 -->
+                        <div class="novedades-card">
+                            <div class="novedades-img-box">
+                                <img src="imgen/palermo.webp" alt="Silla Palermo" class="img-fluida">
+                            </div>
+                            <div class="novedades-info">
+                                <h3>Silla Palermo</h3>
+                                <p>Estructura ergonómica diseñada para alto tráfico y confort prolongado en comedores.</p>
+                                <a href="#silla-palermo" class="btn-cuadrado-flecha">&#10095;</a>
+                            </div>
+                        </div>
+
+                        <!-- Producto 2 -->
+                        <div class="novedades-card">
+                            <div class="novedades-img-box">
+                                <img src="imgen/cubierto.webp" alt="Cubierto Premium" class="img-fluida">
+                            </div>
+                            <div class="novedades-info">
+                                <h3>Cubierto Premium</h3>
+                                <p>Acero inoxidable de grado superior con peso equilibrado para una experiencia refinada.</p>
+                                <a href="#cubierto-premium" class="btn-cuadrado-flecha">&#10095;</a>
+                            </div>
+                        </div>
+
+                        <!-- Producto 3 -->
+                        <div class="novedades-card">
+                            <div class="novedades-img-box">
+                                <img src="imgen/wood.webp" alt="Plato Melamina Vintage Wood" class="img-fluida">
+                            </div>
+                            <div class="novedades-info">
+                                <h3>Plato de Melamina Vintage Wood</h3>
+                                <p>La calidez visual de la madera con la máxima resistencia a roturas y desportilladuras.</p>
+                                <a href="#plato-wood" class="btn-cuadrado-flecha">&#10095;</a>
+                            </div>
+                        </div>
+
+                        <!-- Producto 4 -->
+                        <div class="novedades-card">
+                            <div class="novedades-img-box">
+                                <img src="imgen/gin.webp" alt="Copa Gin L" class="img-fluida">
+                            </div>
+                            <div class="novedades-info">
+                                <h3>Copa Gin L</h3>
+                                <p>Cristalería de alta claridad que realza los aromas y soporta el ciclo intensivo de lavado.</p>
+                                <a href="#copa-gin" class="btn-cuadrado-flecha">&#10095;</a>
+                            </div>
+                        </div>
+
+                        <!-- Producto 5 -->
+                        <div class="novedades-card">
+                            <div class="novedades-img-box">
+                                <img src="imgen/VZ301-02.webp" alt="Candelabro VZ301-02" class="img-fluida">
+                            </div>
+                            <div class="novedades-info">
+                                <h3>Candelabro VZ301-02</h3>
+                                <p>Acento decorativo atemporal que eleva la atmósfera y el prestigio de cualquier mesa.</p>
+                                <a href="#candelabro" class="btn-cuadrado-flecha">&#10095;</a>
+                            </div>
+                        </div>
+
+                        <!-- Producto 6 -->
+                        <div class="novedades-card">
+                            <div class="novedades-img-box">
+                                <img src="imgen/VZ-F01-02.webp" alt="Jarrón VZ-F01-02" class="img-fluida">
+                            </div>
+                            <div class="novedades-info">
+                                <h3>Jarrón VZ-F01-02</h3>
+                                <p>Diseño sofisticado para arreglos florales que protagonizan y dan vida al espacio.</p>
+                                <a href="#jarron" class="btn-cuadrado-flecha">&#10095;</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="slider-btn-nov next-nov" id="btnNextNov">&#10095;</button>
+            </div>
+
+            <!-- Botón CTA Inferior (Como en la referencia) -->
+            <div class="novedades-cta-inferior">
+                <a href="#catalogo" class="btn-cta-negro">Descubra todos los productos</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCIÓN: Aliados Comerciales -->
+    <section id="aliados" class="aliados-section">
+        <div class="aliados-header">
+            <!-- Mantenemos el estilo de título con líneas laterales -->
+            <h2 class="titulo-lineas">NUESTROS ALIADOS COMERCIALES</h2>
+            <p class="aliados-intro">"Las mejores experiencias se construyen junto a los mejores socios."</p>
+        </div>
+
+        <!-- Logo Wall (Carrusel) -->
+        <div class="logo-slider-container" id="logoContainer">
+            <div class="logo-slider-track" id="logoTrack">
+                
+                <!-- Bloque original de logos -->
+                <div class="logo-slide">
+                    <div class="logo-item"><img src="imgen/1.png" alt="Casa Ley"></div>
+                    <div class="logo-item"><img src="imgen/2.png" alt="La Única"></div>
+                    <div class="logo-item"><img src="imgen/3.png" alt="Hoteles Partner"></div>
+                    <div class="logo-item"><img src="imgen/4.png" alt="Restaurantes Partner"></div>
+                    <div class="logo-item"><img src="imgen/5.png" alt="Salones de Eventos"></div>
+                    <div class="logo-item"><img src="imgen/6.png" alt="Distribuidores"></div>
+                </div>
+                <!-- El JavaScript clonará automáticamente el bloque aquí para el bucle -->
+                
+            </div>
+        </div>
+
+        <!-- Estadísticas -->
+        <div class="stats-container">
+            <div class="stat-box">
+                <span class="stat-number" data-target="500">+0</span>
+                <span class="stat-label">Clientes Mayoristas</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number" data-target="1200">+0</span>
+                <span class="stat-label">Proyectos Equipados</span>
+            </div>
+            <div class="stat-box">
+                <!-- Texto estático (no se anima) -->
+                <span class="stat-number static-stat">100%</span>
+                <span class="stat-label">Cobertura Nacional</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number" data-target="50000">+0</span>
+                <span class="stat-label">Productos Entregados Anualmente</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: Embajadores de Marca -->
+    <section id="embajadores" class="embajadores-section">
+        <div class="embajadores-header">
+            <h2 class="titulo-lineas">NUESTROS EMBAJADORES</h2>
+            <p class="embajadores-intro">"Los expertos que diseñan experiencias extraordinarias y marcan tendencia en la industria eligen a Vizcaína como su socio estratégico."</p>
+        </div>
+
+        <div class="embajadores-grid">
+
+            <!-- Embajador 4: John Bernardo -->
+            <div class="embajador-card">
+                <div class="img-wrapper">
+                    <img src="imgen/2-2.jpg" alt="John Bernardo" class="embajador-img">
+                </div>
+                <div class="embajador-info">
+                    <div class="info-content">
+                        <h3>John Bernardo</h3>
+                        <span class="profesion">Experto calificador gastronómico</span>
+                        <div class="bio-hidden">
+                            <p>Experto calificador y promotor gastronómico, John Bernardo es la mente detrás de The Blind Taste.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Embajador 3: Juan Carlos Santoscoy -->
+            <div class="embajador-card">
+                <div class="img-wrapper">
+                    <img src="imgen/3-3.jpg" alt="Juan Carlos Santoscoy" class="embajador-img">
+                </div>
+                <div class="embajador-info">
+                    <div class="info-content">
+                        <h3>Juan Carlos Santoscoy</h3>
+                        <span class="profesion">Artista plastico</span>
+                        <div class="bio-hidden">
+                            <p>Artista plástico mexicano, famoso a nivel internacional por crear la técnica abstracta "tinta al hilo".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Embajador 2: Fabián Vejar -->
+            <div class="embajador-card">
+                <div class="img-wrapper">
+                    <img src="imgen/4-4.jpg" alt="Fabián Vejar" class="embajador-img">
+                </div>
+                <div class="embajador-info">
+                    <div class="info-content">
+                        <h3>Fabián Vejar</h3>
+                        <span class="profesion">Autor floral</span>
+                        <div class="bio-hidden">
+                            <p>Autor floral especializado en la creación de arreglos para eventos de alta gama.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Embajador 1: Alan Santoyo -->
+            <div class="embajador-card">
+                <div class="img-wrapper">
+                    <img src="imgen/1-1.jpg" alt="Alan Santoyo" class="embajador-img">
+                </div>
+                <div class="embajador-info">
+                    <div class="info-content">
+                        <h3>Alan Santoyo</h3>
+                        <span class="profesion">Wedding Planner</span>
+                        <div class="bio-hidden">
+                            <p>Especializado en experiencias de alto nivel y diseño de bodas de lujo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="embajadores-cta">
+            <!-- Cambiamos la clase para que tome el nuevo estilo oscuro y redondeado -->
+            <a href="#proyectos" class="btn-embajadores">Conoce a nuestros embajadores&rarr;</a>
+        </div>
+    </section>
+    
+<!-- SECCIÓN 1: Tendencias y Contacto -->
+    <section class="seccion-tendencias">
+        <div class="curaduria-header">
+            <h2>Conoce nuestras líneas de productos y sus tendencias actuales.</h2>
+            <a href="#contacto" class="btn-consultor">Contactar un asesor</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: Curaduría Global Mapa (Fondo con Imagen) -->
+    <section class="seccion-mapa-bg">
+        
+        <div class="mapa-caja-blanca">
+            <span class="mapa-subtitulo">SELECCIONAMOS LO MEJOR DE MÁS DE 20 PAÍSES</span>
+            
+            <div class="mapa-contenedor-img">
+                <img src="imgen/mapa.jpg" alt="Mapa de Curaduría Global" class="mapa-img">
+                
+                <!-- Puntos dinámicos en el mapa -->
+                <!-- Norteamérica -->
+                <div class="punto-mapa" style="top: 35%; left: 22%;" title="Estados Unidos"></div>
+                
+                <!-- Europa -->
+                <div class="punto-mapa" style="top: 25%; left: 47%;" title="Reino Unido"></div>
+                <div class="punto-mapa" style="top: 28%; left: 49%;" title="Bélgica"></div>
+                <div class="punto-mapa" style="top: 30%; left: 48%;" title="Francia"></div>
+                <div class="punto-mapa" style="top: 35%; left: 47%;" title="España"></div>
+                <div class="punto-mapa" style="top: 35%; left: 46%;" title="Portugal"></div>
+                <div class="punto-mapa" style="top: 28%; left: 51%;" title="Alemania"></div>
+                <div class="punto-mapa" style="top: 33%; left: 52%;" title="Italia"></div>
+                
+                <!-- Medio Oriente y Asia -->
+                <div class="punto-mapa" style="top: 35%; left: 58%;" title="Turquía"></div>
+                <div class="punto-mapa" style="top: 45%; left: 63%;" title="Emiratos Árabes"></div>
+                <div class="punto-mapa" style="top: 35%; left: 88%;" title="Japón"></div>
+            </div>
+
+            <div class="mapa-footer">
+                <span class="mapa-origen">ORIGEN DE NUESTRAS COLECCIONES</span>
+                <p class="mapa-paises">
+                    REINO UNIDO - ALEMANIA - ITALIA - FRANCIA - ESPAÑA - JAPÓN - TURQUÍA - PORTUGAL - ESTADOS UNIDOS - BÉLGICA - EMIRATOS ÁRABES
+                </p>
+            </div>
+        </div>
+
+        <div class="curaduria-footer">
+            <a href="#diagnostico" class="btn-diagnostico">Solicitar más información</a>
+        </div>
+
+    </section>
+
+<!-- ==========================================
+         FOOTER / PIE DE PÁGINA VIZCAÍNA
+    =========================================== -->
+    <footer class="footer-vizcaina">
+
+        <!-- Grid de Enlaces y Contacto -->
+        <div class="footer-main-grid">
+            
+            <!-- Columna 1: Branding y Propuesta de Valor -->
+            <div class="footer-col brand-col">
+                <img src="imgen/logo-vizcaina.svg" alt="Vizcaína Living Home" class="footer-logo">
+                <p class="brand-desc">
+                    El socio estratégico detrás de los proyectos de hostelería más memorables de México. Curaduría global, resistencia operativa y rentabilidad comprobada.
+                </p>
+                <!-- Redes Sociales con Iconos SVG ligeros -->
+                <div class="social-links">
+                    <!-- WhatsApp -->
+                    <a href="#whatsapp" class="social-icon" target="_blank" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="#instagram" class="social-icon" target="_blank" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <!-- Facebook -->
+                    <a href="#facebook" class="social-icon" target="_blank" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Columna 2: Portafolio y Ecosistema -->
+            <div class="footer-col">
+                <h4>Ecosistema Vizcaína</h4>
+                <ul class="footer-links">
+                    <li><a href="#Galeria">Casos de Éxito</a></li>
+                    <li><a href="#Productos">Líneas de Producto</a></li>
+                    <li><a href="#Catalogos">Descargar Catálogos</a></li>
+                    <li><a href="#embajadores">Nuestros Embajadores</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Accesos Especiales -->
+            <div class="footer-col">
+                <h4>Accesos Directos</h4>
+                <ul class="footer-links">
+                    <li><a href="#login" class="link-distribuidor">Portal de Distribuidores</a></li>
+                    <li><a href="https://www.mercadolibre.com.mx/tienda/vizcaina-cristaleria?item_id=MLM2753215705&category_id=MLM1574&official_store_id=180722&client=recoview-selleritems&recos_listing=true" target="_blank">Tienda Menudeo (B2C)</a></li>
+                    <li><a href="#unete">Conviértete en Aliado</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 4: Contacto Corporativo -->
+            <div class="footer-col">
+                <h4>Contáctanos</h4>
+                <ul class="footer-contact">
+                    <li><a href="mailto:proyectos@vizcaina.com">proyectos@vizcaina.com</a></li>
+                    <li><a href="tel:+523300000000">+52 (33) 0000 0000</a></li>
+                    <!-- Dirección con enlace directo a Maps -->
+                    <li class="direccion">
+                        <a href="https://maps.app.goo.gl/ZhZ8XzsX3V71PzTg9" target="_blank">
+                            Hidalgo 20, Los Gavilanes, 45640<br>Los Gavilanes, Jal.
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Línea Inferior Legal -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Vizcaína Living Home. Todos los derechos reservados.</p>
+            <div class="legal-links">
+                <a href="#privacidad">Aviso de Privacidad</a>
+                <span class="separador">|</span>
+                <a href="#terminos">Términos y Condiciones</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
